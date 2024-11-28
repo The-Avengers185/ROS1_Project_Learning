@@ -1,8 +1,8 @@
-# Install script for directory: /home/alan/demo03_ws/src/rename01_node
+# Install script for directory: /home/amovlab-z410/ROS1_Project_Learning/demo03_ws/src/rename01_node
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/alan/demo03_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/amovlab-z410/ROS1_Project_Learning/demo03_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/alan/demo03_ws/build/rename01_node/catkin_generated/installspace/rename01_node.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/amovlab-z410/ROS1_Project_Learning/demo03_ws/build/rename01_node/catkin_generated/installspace/rename01_node.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rename01_node/cmake" TYPE FILE FILES
-    "/home/alan/demo03_ws/build/rename01_node/catkin_generated/installspace/rename01_nodeConfig.cmake"
-    "/home/alan/demo03_ws/build/rename01_node/catkin_generated/installspace/rename01_nodeConfig-version.cmake"
+    "/home/amovlab-z410/ROS1_Project_Learning/demo03_ws/build/rename01_node/catkin_generated/installspace/rename01_nodeConfig.cmake"
+    "/home/amovlab-z410/ROS1_Project_Learning/demo03_ws/build/rename01_node/catkin_generated/installspace/rename01_nodeConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rename01_node" TYPE FILE FILES "/home/alan/demo03_ws/src/rename01_node/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rename01_node" TYPE FILE FILES "/home/amovlab-z410/ROS1_Project_Learning/demo03_ws/src/rename01_node/package.xml")
 endif()
 

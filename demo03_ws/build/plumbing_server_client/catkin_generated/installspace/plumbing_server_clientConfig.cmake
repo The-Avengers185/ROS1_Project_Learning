@@ -67,14 +67,14 @@ set(plumbing_server_client_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(plumbing_server_client_SOURCE_PREFIX /home/alan/demo03_ws/src/plumbing_server_client)
-  set(plumbing_server_client_DEVEL_PREFIX /home/alan/demo03_ws/devel)
+  set(plumbing_server_client_SOURCE_PREFIX /home/amovlab-z410/ROS1_Project_Learning/demo03_ws/src/plumbing_server_client)
+  set(plumbing_server_client_DEVEL_PREFIX /home/amovlab-z410/ROS1_Project_Learning/demo03_ws/devel)
   set(plumbing_server_client_INSTALL_PREFIX "")
   set(plumbing_server_client_PREFIX ${plumbing_server_client_DEVEL_PREFIX})
 else()
   set(plumbing_server_client_SOURCE_PREFIX "")
   set(plumbing_server_client_DEVEL_PREFIX "")
-  set(plumbing_server_client_INSTALL_PREFIX /home/alan/demo03_ws/install)
+  set(plumbing_server_client_INSTALL_PREFIX /home/amovlab-z410/ROS1_Project_Learning/demo03_ws/install)
   set(plumbing_server_client_PREFIX ${plumbing_server_client_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/alan/demo03_ws/install/lib;/opt/ros/noetic/lib)
+    foreach(path /home/amovlab-z410/ROS1_Project_Learning/demo03_ws/install/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
@@ -211,7 +211,7 @@ foreach(depend ${depends})
   _unpack_libraries_with_build_configuration(plumbing_server_client_LIBRARIES ${plumbing_server_client_LIBRARIES})
 
   _list_append_unique(plumbing_server_client_LIBRARY_DIRS ${${plumbing_server_client_dep}_LIBRARY_DIRS})
-  _list_append_deduplicate(plumbing_server_client_EXPORTED_TARGETS ${${plumbing_server_client_dep}_EXPORTED_TARGETS})
+  list(APPEND plumbing_server_client_EXPORTED_TARGETS ${${plumbing_server_client_dep}_EXPORTED_TARGETS})
 endforeach()
 
 set(pkg_cfg_extras "plumbing_server_client-msg-extras.cmake")

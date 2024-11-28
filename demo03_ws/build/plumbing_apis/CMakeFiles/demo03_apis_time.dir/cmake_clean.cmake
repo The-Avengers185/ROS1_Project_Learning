@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/alan/demo03_ws/devel/lib/plumbing_apis/demo03_apis_time"
-  "/home/alan/demo03_ws/devel/lib/plumbing_apis/demo03_apis_time.pdb"
   "CMakeFiles/demo03_apis_time.dir/src/demo03_apis_time.cpp.o"
+  "/home/amovlab-z410/ROS1_Project_Learning/demo03_ws/devel/lib/plumbing_apis/demo03_apis_time.pdb"
+  "/home/amovlab-z410/ROS1_Project_Learning/demo03_ws/devel/lib/plumbing_apis/demo03_apis_time"
 )
 
 # Per-language clean rules from dependency scanning.

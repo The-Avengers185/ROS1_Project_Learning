@@ -7,7 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/alan/demo05_ws/devel:$CMAKE_PREFIX_PATH"
-export PWD='/home/alan/demo05_ws/build'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/alan/demo05_ws/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/alan/demo05_ws/src:$ROS_PACKAGE_PATH"
+export PWD='/home/amovlab-z410/ROS1_Project_Learning/demo05_ws/build'

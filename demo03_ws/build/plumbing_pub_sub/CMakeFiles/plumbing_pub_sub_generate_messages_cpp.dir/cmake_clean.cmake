@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/alan/demo03_ws/devel/include/plumbing_pub_sub/Person.h"
   "CMakeFiles/plumbing_pub_sub_generate_messages_cpp"
+  "/home/amovlab-z410/ROS1_Project_Learning/demo03_ws/devel/include/plumbing_pub_sub/Person.h"
 )
 
 # Per-language clean rules from dependency scanning.

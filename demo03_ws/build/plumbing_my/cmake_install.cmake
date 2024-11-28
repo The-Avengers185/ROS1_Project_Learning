@@ -1,8 +1,8 @@
-# Install script for directory: /home/alan/demo03_ws/src/plumbing_my
+# Install script for directory: /home/amovlab-z410/ROS1_Project_Learning/demo03_ws/src/plumbing_my
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/alan/demo03_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/amovlab-z410/ROS1_Project_Learning/demo03_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,6 +38,6 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/plumbing_my" TYPE FILE FILES "/home/alan/demo03_ws/src/plumbing_my/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/plumbing_my" TYPE FILE FILES "/home/amovlab-z410/ROS1_Project_Learning/demo03_ws/src/plumbing_my/package.xml")
 endif()
 

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/alan/demo03_ws/devel/lib/plumbing_param_server/demo02_param_get"
-  "/home/alan/demo03_ws/devel/lib/plumbing_param_server/demo02_param_get.pdb"
   "CMakeFiles/demo02_param_get.dir/src/demo02_param_get.cpp.o"
+  "/home/amovlab-z410/ROS1_Project_Learning/demo03_ws/devel/lib/plumbing_param_server/demo02_param_get.pdb"
+  "/home/amovlab-z410/ROS1_Project_Learning/demo03_ws/devel/lib/plumbing_param_server/demo02_param_get"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/alan/demo03_ws/devel/lib/plumbing_apis/demo01_apis_pub"
-  "/home/alan/demo03_ws/devel/lib/plumbing_apis/demo01_apis_pub.pdb"
   "CMakeFiles/demo01_apis_pub.dir/src/demo01_apis_pub.cpp.o"
+  "/home/amovlab-z410/ROS1_Project_Learning/demo03_ws/devel/lib/plumbing_apis/demo01_apis_pub.pdb"
+  "/home/amovlab-z410/ROS1_Project_Learning/demo03_ws/devel/lib/plumbing_apis/demo01_apis_pub"
 )
 
 # Per-language clean rules from dependency scanning.

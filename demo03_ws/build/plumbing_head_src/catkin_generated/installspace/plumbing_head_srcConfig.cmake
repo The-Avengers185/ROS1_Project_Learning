@@ -67,14 +67,14 @@ set(plumbing_head_src_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(plumbing_head_src_SOURCE_PREFIX /home/alan/demo03_ws/src/plumbing_head_src)
-  set(plumbing_head_src_DEVEL_PREFIX /home/alan/demo03_ws/devel)
+  set(plumbing_head_src_SOURCE_PREFIX /home/amovlab-z410/ROS1_Project_Learning/demo03_ws/src/plumbing_head_src)
+  set(plumbing_head_src_DEVEL_PREFIX /home/amovlab-z410/ROS1_Project_Learning/demo03_ws/devel)
   set(plumbing_head_src_INSTALL_PREFIX "")
   set(plumbing_head_src_PREFIX ${plumbing_head_src_DEVEL_PREFIX})
 else()
   set(plumbing_head_src_SOURCE_PREFIX "")
   set(plumbing_head_src_DEVEL_PREFIX "")
-  set(plumbing_head_src_INSTALL_PREFIX /home/alan/demo03_ws/install)
+  set(plumbing_head_src_INSTALL_PREFIX /home/amovlab-z410/ROS1_Project_Learning/demo03_ws/install)
   set(plumbing_head_src_PREFIX ${plumbing_head_src_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/alan/demo03_ws/install/lib;/opt/ros/noetic/lib)
+    foreach(path /home/amovlab-z410/ROS1_Project_Learning/demo03_ws/install/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
@@ -211,7 +211,7 @@ foreach(depend ${depends})
   _unpack_libraries_with_build_configuration(plumbing_head_src_LIBRARIES ${plumbing_head_src_LIBRARIES})
 
   _list_append_unique(plumbing_head_src_LIBRARY_DIRS ${${plumbing_head_src_dep}_LIBRARY_DIRS})
-  _list_append_deduplicate(plumbing_head_src_EXPORTED_TARGETS ${${plumbing_head_src_dep}_EXPORTED_TARGETS})
+  list(APPEND plumbing_head_src_EXPORTED_TARGETS ${${plumbing_head_src_dep}_EXPORTED_TARGETS})
 endforeach()
 
 set(pkg_cfg_extras "")

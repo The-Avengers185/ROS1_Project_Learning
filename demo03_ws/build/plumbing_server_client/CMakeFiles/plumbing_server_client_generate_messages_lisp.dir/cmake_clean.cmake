@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/alan/demo03_ws/devel/share/common-lisp/ros/plumbing_server_client/srv/AddInts.lisp"
   "CMakeFiles/plumbing_server_client_generate_messages_lisp"
+  "/home/amovlab-z410/ROS1_Project_Learning/demo03_ws/devel/share/common-lisp/ros/plumbing_server_client/srv/AddInts.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

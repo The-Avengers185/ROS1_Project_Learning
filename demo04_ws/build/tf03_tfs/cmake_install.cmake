@@ -1,8 +1,8 @@
-# Install script for directory: /home/alan/demo04_ws/src/tf03_tfs
+# Install script for directory: /home/amovlab-z410/ROS1_Project_Learning/demo04_ws/src/tf03_tfs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/alan/demo04_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/amovlab-z410/ROS1_Project_Learning/demo04_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "RelWithDebInfo")
+    set(CMAKE_INSTALL_CONFIG_NAME "")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -37,23 +37,18 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-# Set default install directory permissions.
-if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
-endif()
-
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/alan/demo04_ws/build/tf03_tfs/catkin_generated/installspace/tf03_tfs.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/amovlab-z410/ROS1_Project_Learning/demo04_ws/build/tf03_tfs/catkin_generated/installspace/tf03_tfs.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tf03_tfs/cmake" TYPE FILE FILES
-    "/home/alan/demo04_ws/build/tf03_tfs/catkin_generated/installspace/tf03_tfsConfig.cmake"
-    "/home/alan/demo04_ws/build/tf03_tfs/catkin_generated/installspace/tf03_tfsConfig-version.cmake"
+    "/home/amovlab-z410/ROS1_Project_Learning/demo04_ws/build/tf03_tfs/catkin_generated/installspace/tf03_tfsConfig.cmake"
+    "/home/amovlab-z410/ROS1_Project_Learning/demo04_ws/build/tf03_tfs/catkin_generated/installspace/tf03_tfsConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tf03_tfs" TYPE FILE FILES "/home/alan/demo04_ws/src/tf03_tfs/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tf03_tfs" TYPE FILE FILES "/home/amovlab-z410/ROS1_Project_Learning/demo04_ws/src/tf03_tfs/package.xml")
 endif()
 

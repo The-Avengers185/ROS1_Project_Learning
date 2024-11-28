@@ -1,8 +1,8 @@
-# Install script for directory: /home/alan/demo03_ws/src/plumbing_apis
+# Install script for directory: /home/amovlab-z410/ROS1_Project_Learning/demo03_ws/src/plumbing_apis
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/alan/demo03_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/amovlab-z410/ROS1_Project_Learning/demo03_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,37 +38,37 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/plumbing_apis/cmake" TYPE FILE FILES "/home/alan/demo03_ws/build/plumbing_apis/catkin_generated/installspace/plumbing_apis-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/plumbing_apis/cmake" TYPE FILE FILES "/home/amovlab-z410/ROS1_Project_Learning/demo03_ws/build/plumbing_apis/catkin_generated/installspace/plumbing_apis-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/alan/demo03_ws/devel/share/roseus/ros/plumbing_apis")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/amovlab-z410/ROS1_Project_Learning/demo03_ws/devel/share/roseus/ros/plumbing_apis")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/alan/demo03_ws/devel/lib/python3/dist-packages/plumbing_apis")
+  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/amovlab-z410/ROS1_Project_Learning/demo03_ws/devel/lib/python2.7/dist-packages/plumbing_apis")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/alan/demo03_ws/devel/lib/python3/dist-packages/plumbing_apis")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/amovlab-z410/ROS1_Project_Learning/demo03_ws/devel/lib/python2.7/dist-packages/plumbing_apis")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/alan/demo03_ws/build/plumbing_apis/catkin_generated/installspace/plumbing_apis.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/amovlab-z410/ROS1_Project_Learning/demo03_ws/build/plumbing_apis/catkin_generated/installspace/plumbing_apis.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/plumbing_apis/cmake" TYPE FILE FILES "/home/alan/demo03_ws/build/plumbing_apis/catkin_generated/installspace/plumbing_apis-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/plumbing_apis/cmake" TYPE FILE FILES "/home/amovlab-z410/ROS1_Project_Learning/demo03_ws/build/plumbing_apis/catkin_generated/installspace/plumbing_apis-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/plumbing_apis/cmake" TYPE FILE FILES
-    "/home/alan/demo03_ws/build/plumbing_apis/catkin_generated/installspace/plumbing_apisConfig.cmake"
-    "/home/alan/demo03_ws/build/plumbing_apis/catkin_generated/installspace/plumbing_apisConfig-version.cmake"
+    "/home/amovlab-z410/ROS1_Project_Learning/demo03_ws/build/plumbing_apis/catkin_generated/installspace/plumbing_apisConfig.cmake"
+    "/home/amovlab-z410/ROS1_Project_Learning/demo03_ws/build/plumbing_apis/catkin_generated/installspace/plumbing_apisConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/plumbing_apis" TYPE FILE FILES "/home/alan/demo03_ws/src/plumbing_apis/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/plumbing_apis" TYPE FILE FILES "/home/amovlab-z410/ROS1_Project_Learning/demo03_ws/src/plumbing_apis/package.xml")
 endif()
 

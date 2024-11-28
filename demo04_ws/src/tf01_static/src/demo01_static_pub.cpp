@@ -39,6 +39,7 @@ int main(int argc, char *argv[])
     tfs.transform.rotation.z = qtn.getZ();
     tfs.transform.rotation.w = qtn.getW();
 
+
     // 5.发布数据;
     pub.sendTransform(tfs);
     // 6.spin();

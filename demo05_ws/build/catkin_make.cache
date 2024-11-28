@@ -1,2 +1,2 @@
-
--DCATKIN_DEVEL_PREFIX=/home/alan/demo05_ws/devel -DCMAKE_INSTALL_PREFIX=/home/alan/demo05_ws/install -G Unix Makefiles
+urdf01_rviz
+-DCATKIN_DEVEL_PREFIX=/home/amovlab-z410/ROS1_Project_Learning/demo05_ws/devel -DCMAKE_INSTALL_PREFIX=/home/amovlab-z410/ROS1_Project_Learning/demo05_ws/install -G Unix Makefiles

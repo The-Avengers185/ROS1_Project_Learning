@@ -65,7 +65,11 @@ int main(int argc, char *argv[])
                         方案2: 进行异常处理 (建议)
             */
             point_base = buffer.transform(point_laser,"world");
-            ROS_INFO("转换后的数据:(%.2f,%.2f,%.2f),参考的坐标系是:",point_base.header.frame_id.c_str());
+            ROS_INFO("转换后的数据:(%.2f,%.2f,%.2f),参考的坐标系是:%s",
+                    point_base.point.x,
+                    point_base.point.y,
+                    point_base.point.z,
+                    point_base.header.frame_id.c_str());
 
         }
         catch(const std::exception& e)

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/alan/demo03_ws/devel/share/roseus/ros/plumbing_pub_sub/manifest.l"
-  "/home/alan/demo03_ws/devel/share/roseus/ros/plumbing_pub_sub/msg/Person.l"
   "CMakeFiles/plumbing_pub_sub_generate_messages_eus"
+  "/home/amovlab-z410/ROS1_Project_Learning/demo03_ws/devel/share/roseus/ros/plumbing_pub_sub/msg/Person.l"
+  "/home/amovlab-z410/ROS1_Project_Learning/demo03_ws/devel/share/roseus/ros/plumbing_pub_sub/manifest.l"
 )
 
 # Per-language clean rules from dependency scanning.

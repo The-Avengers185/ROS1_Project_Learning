@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python2
 #解释器指令，用来指定使用哪一个解释器来运行脚本文件
 import rospy
 from std_msgs.msg import String

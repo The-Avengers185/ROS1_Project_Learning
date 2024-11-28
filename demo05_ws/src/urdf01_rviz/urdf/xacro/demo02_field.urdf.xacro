@@ -1,0 +1,11 @@
+<robot name="mycar" xmlns:xacro="http://wiki.ros.org/xacro">
+    <!-- 1.difinition -->
+    <xacro:property name="PI" value="3.1415927"/>
+    <xacro:property name="radius" value="0.03"/>
+    <!-- 2.diaoyong -->
+    <myUsePropertyxxx name="${PI}" />
+    <myUsePropertyxxx name="${radius}" />
+    <!-- 3.calculate -->
+    <myUsePropertyYyy result="${PI/2}" />
+    <myUsePropertyYyy result="${radius*2}" />
+</robot>

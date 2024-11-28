@@ -1,0 +1,8 @@
+prefix=/home/amovlab-z410/ROS1_Project_Learning/demo04_ws/devel
+
+Name: rqt_demo
+Description: Description of rqt_demo
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

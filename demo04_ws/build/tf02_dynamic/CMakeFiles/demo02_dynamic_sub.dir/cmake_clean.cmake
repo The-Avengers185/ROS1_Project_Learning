@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/alan/demo04_ws/devel/lib/tf02_dynamic/demo02_dynamic_sub"
-  "/home/alan/demo04_ws/devel/lib/tf02_dynamic/demo02_dynamic_sub.pdb"
   "CMakeFiles/demo02_dynamic_sub.dir/src/demo02_dynamic_sub.cpp.o"
+  "/home/amovlab-z410/ROS1_Project_Learning/demo04_ws/devel/lib/tf02_dynamic/demo02_dynamic_sub.pdb"
+  "/home/amovlab-z410/ROS1_Project_Learning/demo04_ws/devel/lib/tf02_dynamic/demo02_dynamic_sub"
 )
 
 # Per-language clean rules from dependency scanning.
