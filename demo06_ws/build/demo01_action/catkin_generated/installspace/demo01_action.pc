@@ -1,0 +1,8 @@
+prefix=/home/amovlab-z410/ROS1_Project_Learning/demo06_ws/install
+
+Name: demo01_action
+Description: Description of demo01_action
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: actionlib actionlib_msgs roscpp rospy std_msgs

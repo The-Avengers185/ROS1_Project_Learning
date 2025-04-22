@@ -1,0 +1,8 @@
+prefix=/home/amovlab-z410/ROS1_Project_Learning/demo03_ws/install
+
+Name: plumbing_param_server
+Description: Description of plumbing_param_server
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

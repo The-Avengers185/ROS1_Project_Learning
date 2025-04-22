@@ -1,0 +1,2 @@
+demo01_action:demo02_dr:demo03_plugin:demo04_nodelet
+-DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_DEVEL_PREFIX=/home/amovlab-z410/ROS1_Project_Learning/demo06_ws/devel -DCMAKE_INSTALL_PREFIX=/home/amovlab-z410/ROS1_Project_Learning/demo06_ws/install -G Unix Makefiles

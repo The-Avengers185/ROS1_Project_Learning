@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${default}",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "/opt/ros/melodic/include/**",
+                "/home/amovlab-z410/ROS1_Project_Learning/demo04_ws/src/tf01_static/include/**",
+                "/home/amovlab-z410/ROS1_Project_Learning/demo04_ws/src/tf02_dynamic/include/**",
+                "/home/amovlab-z410/ROS1_Project_Learning/demo04_ws/src/tf03_tfs/include/**",
+                "/usr/include/**"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "gnu11",
+            "cppStandard": "c++17",
+            "compileCommands": "${workspaceFolder}/build/compile_commands.json"
+        }
+    ],
+    "version": 4
+}

@@ -1,0 +1,8 @@
+prefix=/home/amovlab-z410/ROS1_Project_Learning/demo03_ws/devel
+
+Name: plumbing_head
+Description: Description of plumbing_head
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

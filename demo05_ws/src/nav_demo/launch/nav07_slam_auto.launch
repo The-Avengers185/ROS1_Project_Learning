@@ -1,0 +1,7 @@
+<!-- 集成slam和导航，实现机器人自主移动的地图构建 -->
+<launch>
+    <!-- 1.slam实现 -->
+    <include file="$(find nav_demo)/launch/nav01_slam.launch"/>
+    <!-- 2.导航中的move_base -->
+    <include file="$(find nav_demo)/launch/nav05_path.launch"/>
+</launch>

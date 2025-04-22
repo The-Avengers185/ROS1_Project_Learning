@@ -1,0 +1,12 @@
+<robot name="mycar" xmlns:xacro="http://wiki.ros.org/xacro">
+    <!-- 1.hong difinition -->
+    <xacro:macro name="getSum" params="num1 num2">
+        <result value="${num1 + num2}" />
+    </xacro:macro>
+    <xacro:property name="PI" value="3.1415927"/>
+    <xacro:property name="radius" value="0.03"/>
+    <!-- 2.hong diaoyong -->
+    <xacro:getSum num1="1" num2="5"/>
+    
+    
+</robot>

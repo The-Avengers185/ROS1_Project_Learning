@@ -1,0 +1,10 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~int_param" : \b [int] zhengxing min: 1, default: 10, max: 100
+- \b "~double_param" : \b [double] fudian min: 0.0, default: 1.57, max: 3.14
+- \b "~str_param" : \b [str] zifuchuan min: , default: hello param, max: 
+- \b "~bool_param" : \b [bool] buer min: False, default: True, max: True
+- \b "~list_param" : \b [int] liebiao min: 0, default: 0, max: 2
+
